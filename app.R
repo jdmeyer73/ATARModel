@@ -213,7 +213,7 @@ ui <- fluidPage(
                   numericInput(
                      "awareness",
                      label = NULL,
-                     value = 50,
+                     value = 40,
                      min = 0,
                      max = 100,
                      step = 1
@@ -232,7 +232,7 @@ ui <- fluidPage(
                   numericInput(
                      "trial",
                      label = NULL,
-                     value = 30,
+                     value = 20,
                      min = 0,
                      max = 100,
                      step = 1
